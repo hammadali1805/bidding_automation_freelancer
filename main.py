@@ -249,12 +249,12 @@ Label(mainFrame, text="Bidding Made Easier", font="courier 10 bold", fg="grey", 
 Label(mainFrame, text="o Username/Email", font="times 16", fg="grey", bg=base_color).place(relx=0.05, rely=0.17, anchor="w")
 usernameInput = Entry(mainFrame, font="times 16", textvariable=username, width=22)
 usernameInput.place(relx=0.95, rely=0.17, anchor="e")
-username.set("freelancers01hk@gmail.com")
+username.set("Email")
 
 Label(mainFrame, text="o Password", font="times 16", fg="grey", bg=base_color).place(relx=0.05, rely=0.23, anchor="w")
 passwordInput = Entry(mainFrame, show="*",textvariable=password, font="times 16", width=22)
 passwordInput.place(relx=0.95, rely=0.23, anchor="e")
-password.set("3fYRk5AY4S6J3Kv")
+password.set("Password")
 
 Label(mainFrame, text="--------------------------", fg="grey", bg=base_color, font="times 10").place(relx=0.5, rely=0.29, anchor="center")
 
